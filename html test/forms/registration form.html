@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        label {
+            display: inline-block;
+            text-align: right;
+            width: 5%;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>registration form</h2>
+
+    <form>
+        <label>user ID: </label>
+        <input type="number" />
+        <br>
+        <label>password:</label>
+        <input type="password" />
+        <br>
+        <label>name:</label>
+        <input type="text"  style="width:300px" />
+        <br>
+
+        <label>address:</label>
+        <input type="text" style="width:300px" />
+        <br>
+
+
+
+        <label for="countries">country:</label>
+        <select name="countries" id="countries">
+            <option value="">Select your country</option>
+            <option value="Germany">Germany</option>
+            <option value="uae">uae</option>
+            <option value="usa">usa</option>
+            <option value="Spain">Spain</option>
+        </select>
+
+        <br>
+
+        <label>ZID code:</label>
+        <input type="number" />
+        <br>
+
+        <label>E-mail:</label>
+        <input type="email" style="width:300px" />
+        <br>
+        gender:
+        <input type="radio" id="female" name="gendar" value="female">
+          <label for="female">female</label>
+          <input type="radio" id="male" name="gendar" value="male">
+          <label for="male">male</label>
+         
+        <br>
+
+        language:
+        <input type="checkbox" id="english" name="lang" value="engish" style="background-color:green ;">
+        <label for="english"> english</label>
+        <input type="checkbox" id="nonenglish" name="nonenglish" value="nonenglish">
+        <label for="nonenglish"> non-english</label>
+        <br>
+
+        <label>About:</label>
+        <input type="text" style="width:300px ;height:200px ; vertical-align: top;" />
+
+        <p style="margin-left: 180px;"><button type="submit"
+                style="color: rgb(1, 1, 4); font-size: x-large;"><b>submit</b></button></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
